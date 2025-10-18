@@ -31,7 +31,6 @@ public class Main {
             }
             return subBreeds.size();
         } catch (BreedFetcher.BreedNotFoundException e) {
-            // 若该品种不存在或发生错误，则返回0
             return 0;
         }
     }
